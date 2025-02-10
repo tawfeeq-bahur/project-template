@@ -1,0 +1,11 @@
+prefix=D:/localSetup/myenv/Library 
+exec_prefix=D:/localSetup/myenv/Library 
+libdir=D:/localSetup/myenv/Library/lib 
+includedir=D:/localSetup/myenv/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.10.4 
+Description: libXML library version2. 
+Requires: 
+Libs: -LD:/localSetup/myenv/Library/lib -lxml2 -liconv -lz 
+Cflags: -ID:/localSetup/myenv/Library/include/libxml2 -ID:/localSetup/myenv/Library/include 
